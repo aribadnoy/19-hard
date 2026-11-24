@@ -1,0 +1,67 @@
+
+/* Dizajnimi i faqes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Titulli */
+h1 {
+    color: blue;
+    margin-bottom: 40px;
+}
+
+/* Kontejneri Flexbox */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Dizajnimi i kutive */
+.box {
+    width: calc(50% - 50px);
+    height: 150px;
+
+    background-color: lightblue;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Për tablet */
+@media (max-width: 768px) {
+
+    .box {
+        width: calc(50% - 50px);
+        background-color: lightgreen;
+    }
+
+}
+
+/* Për telefon mobil */
+@media (max-width: 480px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        background-color: lightcoral;
+    }
+
+}

@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Flexbox Responsive Layout</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>CSS Flexbox Responsive Layout</h1>
+
+    <div class="container">
+
+        <div class="box">Kutia 1</div>
+
+        <div class="box">Kutia 2</div>
+
+        <div class="box">Kutia 3</div>
+
+        <div class="box">Kutia 4</div>
+
+    </div>
+
+</body>
+</html>
